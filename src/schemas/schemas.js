@@ -80,7 +80,7 @@ type Query {
 }
 
 type Mutation {
-  createUser(user: UserInput!): User
+  saveUser(user: UserInput!): User
 }
   `;
 
